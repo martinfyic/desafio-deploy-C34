@@ -19,7 +19,7 @@ const {
 const compression = require('compression');
 const { loggerError, loggerInfo } = require('./middlewares/log4js.js');
 
-const PORT = process.argv[2] || 8080;
+const PORT = process.env.PORT || 8080;
 
 const mode = process.argv[3] || 'FORK';
 const nroCpus = os.cpus().length;
