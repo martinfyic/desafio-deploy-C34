@@ -4,7 +4,7 @@
 	"description": "Desafio clase 32",
 	"main": "app.js",
 	"scripts": {
-		"start": "node src/app.js",
+		"start": "node ./src/app.js",
 		"prof": "node --prof src/app.js",
 		"inspect": "node --inspect src/app.js",
 		"0x": "0x src/app.js",
@@ -25,10 +25,10 @@
 		"mongoose": "6.8.3",
 		"passport": "0.6.0",
 		"passport-local": "1.0.0",
-		"yargs": "17.6.2"
+		"yargs": "17.6.2",
+		"@faker-js/faker": "7.6.0"
 	},
 	"devDependencies": {
-		"@faker-js/faker": "7.6.0",
 		"nodemon": "2.0.20"
 	}
 }
