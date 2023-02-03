@@ -121,10 +121,6 @@ Luego ejecutamos el siguiente comando:
 autocannon -c 100 -d 20 "http://localhost:8080/info"
 ```
 
-Nos dara el siguiente resultado por consola
-
-![autocannon result](autocannon_terminal.png)
-
 1. Para utilizar el `inspect` de node debemos correr el siguiente sript, [Documentacion](https://nodejs.org/en/docs/guides/debugging-getting-started/)
 
 ```bash
